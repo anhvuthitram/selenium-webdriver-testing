@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Run 1" verbose="1" parallel="methods" thread-count="4">
+    <test name="Run on Firefox browser">
+        <classes>
+            <class name ="testng.Topic_12_Parellel_Method"></class>
+        </classes>
+    </test>
+</suite>
+
